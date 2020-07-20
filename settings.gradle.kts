@@ -1,6 +1,3 @@
-rootProject.name = "Cloud"
+rootProject.name = "Cloud-Internal"
 
-include(
-        "Proxy-Cloud-Addon",
-        "Static-Cloud-Addon"
-)
+include("Cloud-Proxy", "Cloud-Static")

@@ -1,4 +1,4 @@
-package dev.jonaz.cloud.internal.addon
+package dev.jonaz.cloud.internal
 
 import org.bukkit.plugin.java.JavaPlugin
 

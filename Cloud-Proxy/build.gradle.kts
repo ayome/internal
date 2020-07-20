@@ -6,7 +6,7 @@ plugins {
     kotlin("jvm") version "1.3.71"
 }
 
-group = "dev.jonaz.cloud.internal.addon"
+group = "dev.jonaz.cloud.internal"
 java.sourceCompatibility = JavaVersion.VERSION_11
 
 repositories {

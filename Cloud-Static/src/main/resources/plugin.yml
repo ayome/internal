@@ -1,0 +1,6 @@
+name: "cloud-internal"
+version: 1.0.0
+author: Jonaznas
+main: dev.jonaz.cloud.internal.Main
+
+commands: {}
