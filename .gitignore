@@ -1,0 +1,14 @@
+.gradle
+.idea
+
+build
+dist
+tmp
+out-tsc
+node_modules
+
+*.log
+*.db
+
+Cloud-Main/src/main/resources/static
+Cloud-Main/src/main/resources/static/*
