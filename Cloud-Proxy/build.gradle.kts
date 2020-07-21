@@ -9,6 +9,8 @@ plugins {
 group = "dev.jonaz.cloud.internal"
 java.sourceCompatibility = JavaVersion.VERSION_11
 
+setBuildDir("../build")
+
 repositories {
     mavenCentral()
     maven(url = "https://oss.sonatype.org/content/repositories/snapshots/")
@@ -16,6 +18,7 @@ repositories {
 
 dependencies {
     compileOnly("net.md-5:bungeecord-api:1.15-SNAPSHOT")
+    implementation("com.google.code.gson:gson:2.8.6")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.61")
 
     shadow("org.jetbrains.kotlin:kotlin-stdlib-jdk8")

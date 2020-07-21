@@ -9,6 +9,8 @@ plugins {
 group = "dev.jonaz.cloud.internal"
 java.sourceCompatibility = JavaVersion.VERSION_11
 
+setBuildDir("../build")
+
 repositories {
     mavenCentral()
     maven(url = "https://hub.spigotmc.org/nexus/content/repositories/snapshots/")
@@ -17,8 +19,6 @@ repositories {
 }
 
 dependencies {
-    compileOnly("com.comphenix.protocol:ProtocolLib:4.5.0")
-    compileOnly("net.md-5:bungeecord-api:1.15-SNAPSHOT")
     compileOnly("org.bukkit:bukkit:1.8.8-R0.1-SNAPSHOT")
 
     implementation("com.google.code.gson:gson:2.8.6")
